@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    width: 100%;
+    height: 100vh;
+ 
+    z-index: -1; /* Ensure it's behind other content */
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+header {
+ 
+   /* Adjust height as needed */
+/* Example background color */
+    /* Other header styles */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    z-index: 1;
+    padding: 20px;
+}
+.logo img{
+    width: 60px;
+    display: flex;
+    font-size: 30px;
+}
+ul {
+    display: flex;
+ 
+}
+
+ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.notefication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.nameuser {
+
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.center{
+  height: 80%;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 50px auto;
+
+   
+}
+.cneterone{
+    max-width: 600px;
+   text-align: center;
+   margin: 150px auto;
+   justify-content: center;
+
+}
+.cneterone h1 {
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+
+
+.center p {
+    font-size: 10px;
+    text-align: center;
+    width: 400px;
+
+  
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 15px;
+}
+button {
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-secondary{
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+
+section {
+ padding: 20px 30px;
+ margin: 20px auto;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.technologies{
+    text-align: center;
+
+}
+.contente h6 {
+    font-size: 10px;
+    text-align: center;
+    text-align: center;
+    color: aqua;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contente h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contente b {
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.imagetechnologises {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    background-color: rgb(227, 231, 231);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.top {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    font-size: 10;
+    padding: 3px;
+    background-color: rgb(21, 255, 0);
+
+}
+.box .text{
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.tex b{
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.courseContente h4 {
+    color: green;
+    font-size: 10px;
+    font-weight: 300;
+}
+.courseContente h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.courseContente b {
+    color: gray;
+    font-size: 8px;
+}
+
+
+.boxCoursees {
+    width: 200px;
+  
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 1px 8px rgba(0, 0, 0 , 0.1);
+     margin-top: 20px;
+    border-radius: 20px;
+
+}
+.boxCoursees img {
+    width: 100%;
+}
+
+.coursetext {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 7px;
+}
+
+.web {
+margin-left: 2px;
+font-size: 6px;
+background-color: green;
+color: white;
+padding:  7px 6px;
+border-radius: 30px;
+
+} 
+.coursetext h5 {
+    font-size: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.coursetext h6{
+    font-size: 6px;
+}
+.coursetext b {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.languageflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    max-width: 1200px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.language h6 {
+    margin-bottom: 10px;
+    font-size: 14px; /* Increased font size for better readability */
+}
+
+.language b {
+    font-size: 12px; /* Increased font size for better readability */
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.button {
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12px; /* Increased font size for better readability */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.boximages {
+    width: 120px;
+    background-color: rgb(230, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.boximages img {
+    width: 50px;
+}
+
+.gridimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
